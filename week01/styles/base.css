@@ -1,0 +1,130 @@
+/* Professional Palette: https://coolors.co/palette/006466-065a60-0b525b-144552-1b3a4b-212f45-272640-312244-3e1f47-4d194d */
+/* Import Fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Open+Sans&family=Source+Serif+4&display=swap');
+
+/* Brand - font-family: 'Cinzel', serif; */
+/* Headings - font-family: 'Source Serif 4', serif; */
+/* Paragraph - font-family: 'Open Sans', sans-serif; */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    margin: 5rem;
+    margin-left: 40px;
+    font-size: 4rem;
+    color: white;
+}
+
+h2, h3, h4 {
+    font-family: 'Source Serif 4', serif;
+}
+
+header {
+    background-color: #144552;
+    display: flex;
+}
+
+#profile-picture {
+    width: 200px;
+    height: 300px;
+    margin: 1rem;
+    margin-left: 25%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.234);
+    border-radius: 0.2rem;
+}
+
+nav {
+    background-color: #272640;
+    font-size: 28px;
+    padding: 1rem;
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 auto;
+    color: white;
+}
+
+
+a:hover {
+    background-color: #852c85;
+    width: 100%;
+    text-align: center;
+}
+
+.main-h2-heading {
+    color: #3E1F47;
+    font-size: 3rem;
+    font-family: 'Cinzel', serif;
+    padding-left: 2rem;
+    margin-bottom: 0;
+}
+
+hr {
+    width: 98%;
+    margin-bottom: 10;
+    height: 1px;
+    background-color: #3E1F47;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+       
+}
+
+.card {
+    display: grid;
+    border-radius: 0.2rem;
+    font-size: 1.3rem;
+    margin: 1rem;
+    padding-top: 0;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.234);
+    color: #212F45;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    background-color: #006466;
+    height: 60px;
+    padding: 0.5rem;
+    padding-top: 1.3rem;
+    margin-top: 0;
+    border-radius: 0.2rem;
+}
+
+#information {
+    text-align: center;
+}
+
+footer {
+    background-color: #144552;
+    display: grid;
+    color: white;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 50px;
+    margin: 1rem;
+    margin-bottom: 0;
+}
+
+footer p {
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
