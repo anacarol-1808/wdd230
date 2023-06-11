@@ -1,0 +1,31 @@
+/* Palette: https://coolors.co/palette/006466-065a60-0b525b-144552-1b3a4b-212f45-272640-312244-3e1f47-4d194d */
+/* Import Fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Open+Sans&family=Source+Serif+4&display=swap');
+
+h1 {
+    font-family: 'Cinzel', serif;
+    background-color: #1B3A4B;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    font-family: 'Source Serif 4', serif;
+    color: #312244;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #212F45;
+}
+
+footer {
+    background-color: #1B3A4B;
+    padding: 10px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
