@@ -13,7 +13,7 @@
     <body>
         <header>
             <h1>The Chamber of Commerce Site Plan</h1>
-            <h2>Author: Carol Faccinetto</h2>
+            <h2 id="author">Author: Carol Faccinetto</h2>
         </header>
         <main>
 
@@ -43,21 +43,21 @@
             <h2>Style Guide</h2>
 
             <h3>Color Schema</h3>
-            <p>primary-color Charcoal: 1B3A4B - Header and Footer</p>
-            <p>secondary-color Prussian blue: 212F45 - Paragraphs</p>
-            <p>accent1-color Dark purple: 312244 - Headings and Navigation</p>
-            <p>accent2-color Palatinate: 4D194D - Hover</p>
+            <p id="primary-color">primary-color Charcoal: 1B3A4B - Header and Footer</p>
+            <p id="secondary-color">secondary-color Prussian blue: 212F45 - Paragraphs</p>
+            <p id="accent1-color">accent1-color Dark purple: 312244 - Headings and Navigation</p>
+            <p id="accent2-color">accent2-color Palatinate: 4D194D - Hover</p>
             <span>Palette URL:</span> <a href="https://coolors.co/palette/006466-065a60-0b525b-144552-1b3a4b-212f45-272640-312244-3e1f47-4d194d">Color Pallete</a>
 
             <h3>Typography</h3>
             <h4>Branding Names and Decorative Font</h4>
-            <p>font-family: 'Cinzel', serif;</p>
+            <p id="brand-typography">font-family: 'Cinzel', serif;</p>
 
             <h4>Headings Example Font</h4>
-            <p>font-family: 'Source Serif 4', serif;</p>
+            <p id="heading-typography">font-family: 'Source Serif 4', serif;</p>
 
             <h4>Normal Text/Paragraph Example Font</h4>
-            <p>font-family: 'Open Sans', sans-serif;</p>
+            <p id="paragraph-typography">font-family: 'Open Sans', sans-serif;</p>
 
             <span>Import Fonts:</span> <a href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Open+Sans&family=Source+Serif+4&display=swap">Fonts</a>
 
@@ -70,10 +70,12 @@
             </nav>
 
             <h2>Wireframes</h2>
-            <h4>Large Screen</h4>
-            <img src="images/home-wireframe.JPG" alt="Home Page Wireframe - Large" width="700">
-            <h4>Mobile View</h4>
-            <img src="images/home-wireframe-mobile-view.JPG" alt="Home Page Wireframe - Mobile" width="400">
+            <div class="grid">
+                <h3>Large Screen</h3>
+                <img src="images/home-wireframe.JPG" alt="Home Page Wireframe - Large" width="700">
+                <h3>Mobile View</h3>
+                <img src="images/home-wireframe-mobile-view.JPG" alt="Home Page Wireframe - Mobile" width="400">
+            </div>
 
         </main>
         <footer>

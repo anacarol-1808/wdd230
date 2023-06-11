@@ -2,6 +2,16 @@
 /* Import Fonts: */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Open+Sans&family=Source+Serif+4&display=swap');
 
+* {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+main {
+    border: 1px solid lightgray;
+}
+
 h1 {
     font-family: 'Cinzel', serif;
     background-color: #1B3A4B;
@@ -10,14 +20,78 @@ h1 {
     text-align: center;
 }
 
+#author {
+    text-align: left;
+    color: #1B3A4B;
+    background: white;
+}
+
 h2, h3, h4 {
     font-family: 'Source Serif 4', serif;
     color: #312244;
+    margin-top: 20px;
+    
 }
+
+h2 {
+    text-align: center;
+    background-color: #006466;
+    color: white;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
 
 p {
     font-family: 'Open Sans', sans-serif;
     color: #212F45;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+#primary-color {
+    background-color: #1B3A4B;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#secondary-color {
+    background-color: #212F45;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#accent1-color {
+    background-color: #312244;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#accent2-color {
+    background-color: #4D194D;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #312244;
+    border: 1px solid;
+    margin: 5px;
+
 }
 
 footer {
@@ -28,4 +102,27 @@ footer {
 footer p {
     color: white;
     text-align: center;
+}
+
+img {
+    text-align: center;
+}
+
+#brand-typography {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+}
+
+#heading-typography {
+    font-family: 'Source Serif 4', serif;
+    font-size: 1.5rem;
+}
+
+#paragraph-typography {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.grid {
+    display: grid;
 }
