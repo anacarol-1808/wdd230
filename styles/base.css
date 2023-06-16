@@ -99,6 +99,10 @@ hr {
     color: #212F45;
 }
 
+.card a{
+    color: #212F45;
+}
+
 .card h3 {
     text-align: center;
     font-size: 1.8rem;
