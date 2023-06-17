@@ -197,5 +197,13 @@ footer p {
         text-align: center;
     }
 
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+
 
 }
