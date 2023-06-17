@@ -10,6 +10,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.saopaulo.sp.gov.br/" />
     <meta property="og:image" content="https://images.unsplash.com/photo-1520645521318-f03a712f0e67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXZlbmlkYSUyMHBhdWxpc3RhfGVufDB8fDB8fHww&w=1000&q=80" />
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
@@ -19,14 +20,19 @@
         <img id="profile-picture" src="images/carol-faccinetto-profile-picture.jpg" alt="Carol Faccinetto">
         <h1>Carol Faccinetto</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="week01/chamber-site-plan.html">Home</a></li>
-            <li><a href="">Chamber</a></li>
-            <li><a href="">Site Plan</a></li>
-            <li><a href="">Form</a></li>
-        </ul>
-    </nav>
+        <nav class="nav-bar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="week01/chamber-site-plan.html">Home</a></li>
+                <li class="nav-item"><a href="">Chamber</a></li>
+                <li class="nav-item"><a href="">Site Plan</a></li>
+                <li class="nav-item"><a href="">Form</a></li>
+            </ul>
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     <main>
         <h2 class="main-h2-heading">WDD 230: Web Frontend Development</h2>
         <hr>
