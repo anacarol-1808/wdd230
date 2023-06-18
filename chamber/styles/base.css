@@ -1,0 +1,59 @@
+/* Professional Palette: https://coolors.co/palette/006466-065a60-0b525b-144552-1b3a4b-212f45-272640-312244-3e1f47-4d194d */
+/* Import Fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Open+Sans&family=Source+Serif+4&display=swap');
+
+/* Brand - font-family: 'Cinzel', serif; */
+/* Headings - font-family: 'Source Serif 4', serif; */
+/* Paragraph - font-family: 'Open Sans', sans-serif; */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1300px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+h2, h3, h4 {
+    font-family: 'Source Serif 4', serif;
+    color: white;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    background-color: #144552;
+    display: flex;
+}
+
+.logo {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 10%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+nav li {
+    background-color: aqua;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
