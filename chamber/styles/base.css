@@ -8,7 +8,7 @@
 
 * {
     font-family: 'Open Sans', sans-serif;
-    max-width: 1300px;
+    max-width: 1000px;
     margin: auto;
     padding: 10px;
     
@@ -25,7 +25,7 @@ h1 {
 
 h2, h3, h4 {
     font-family: 'Source Serif 4', serif;
-    color: white;
+    color: #144552;
     text-align: center;
     padding: 0%;
     margin: 0%;
@@ -37,23 +37,57 @@ header {
 }
 
 .logo {
-    padding: 0%;
-    margin: 0%;
-    margin-left: 10%;
+    display: block;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 15%;
 }
 
 nav ul{
     display: flex;
     list-style: none;
-    justify-content: space-between;
-    background-color: aqua;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
 }
 
 nav li {
-    background-color: aqua;
+    display: block;
+    background-color: white;
+    color: #144552;
+    margin: 2px;
+    text-align: center;
+    border: solid 1px #1445522e;
+    box-shadow: 10px 5px 5px #14455292;
 }
 
 nav a {
     text-decoration: none;
     font-size: 1.2rem;
+    
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+.hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+
+}
+
+.hero a {
+    display: block;
+    background-color: #3E1F47;
+    color: white;
+    padding: 2%;
+    border-radius: 0.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
 }
