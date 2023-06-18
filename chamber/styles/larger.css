@@ -1,0 +1,214 @@
+/* Professional Palette: https://coolors.co/palette/006466-065a60-0b525b-144552-1b3a4b-212f45-272640-312244-3e1f47-4d194d */
+/* Import Fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Open+Sans&family=Source+Serif+4&display=swap');
+
+/* Brand - font-family: 'Cinzel', serif; */
+/* Headings - font-family: 'Source Serif 4', serif; */
+/* Paragraph - font-family: 'Open Sans', sans-serif; */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    color: white;
+    padding-left: 1px;
+
+}
+
+.name h2 {
+    color: white;
+}
+
+h2, h3, h4 {
+    font-family: 'Source Serif 4', serif;
+    color: #144552;
+    text-align: center;
+    padding: 0%;
+    margin-bottom: 2%;
+}
+
+header {
+    background-color: #144552;
+    display: flex;
+}
+
+.logo {
+    display: block;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 15%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav li {
+    display: block;
+    background-color: white;
+    color: #144552;
+    margin: 2px;
+    text-align: center;
+    border: solid 1px #1445522e;
+    box-shadow: 10px 5px 5px #14455292;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+nav ul li:hover {
+    border: 3px solid #852c85;
+    color: #852c85;
+}
+
+.hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+
+}
+
+.hero a {
+    display: block;
+    background-color: #3E1F47;
+    color: white;
+    padding: 2%;
+    border-radius: 0.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.grid-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.purpose img {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.purpose {
+    background-color: #3e1f4731;
+    border-radius: 0.5rem;
+    border: 5px solid #3E1F47;
+}
+
+.spotlight {
+    color: #144552;
+    background-color: #14455241;
+    margin-top: 10px;
+    padding: 2%;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-two img {
+    width: 80%;
+    height: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 5px solid #144552;
+
+}
+
+figcaption {
+    text-align: center;
+}
+
+fig {
+    box-shadow: #144552;
+    margin-top: 0%;
+}
+
+.weather {
+    border: solid #212f4537;
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+    mar
+}
+
+.grid-three {
+    display: flex;
+}
+
+footer {
+    background-color: #144552;
+    display: grid;
+    color: white;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 50px;
+    margin: 1rem;
+    margin-bottom: 0;
+}
+
+footer p {
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.hamburguer {
+    display: none;
+    cursor: pointer;
+    margin-left: 75%;
+    margin-top: 5%;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #272640;
+}
+
+#mode {
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	font-size: 1rem;
+    padding: 0.3rem;
+	cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: white;
+    color: #144552;
+    width: 20px;
+    text-align: center;
+}
+
