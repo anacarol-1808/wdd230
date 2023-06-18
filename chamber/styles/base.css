@@ -18,9 +18,12 @@ h1 {
     font-family: 'Cinzel', serif;
     font-size: 3rem;
     color: white;
-    text-align: center;
-    padding: 0%;
-    margin: 0%;
+    padding-left: 1px;
+
+}
+
+.name h2 {
+    color: white;
 }
 
 h2, h3, h4 {
@@ -91,3 +94,88 @@ nav ul li {
     text-decoration: none;
     font-size: 1.5rem;
 }
+
+.grid-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.purpose img {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.purpose {
+    background-color: #3e1f4731;
+    border-radius: 0.5rem;
+    border: 5px solid #3E1F47;
+}
+
+.spotlight {
+    color: #144552;
+    background-color: #14455241;
+    margin-top: 10px;
+    padding-top: 2%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-two img {
+    width: 210px;
+    height: 130px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 5px solid #144552;
+
+}
+
+figcaption {
+    text-align: center;
+}
+
+fig {
+    background-color: #14455241;
+    box-shadow: #144552;
+    margin-top: 0%;
+}
+
+.weather {
+    border: solid #212f4537;
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+    mar
+}
+
+.grid-three {
+    display: flex;
+}
+
+footer {
+    background-color: #144552;
+    display: grid;
+    color: white;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 50px;
+    margin: 1rem;
+    margin-bottom: 0;
+}
+
+footer p {
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+
