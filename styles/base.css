@@ -140,37 +140,6 @@ footer p {
     align-items: center;
 }
 
-/*.nav-bar {
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-}*/
-
-/*.nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-
-}*/
-
-.hamburguer {
-    display: none;
-    cursor: pointer;
-    margin-left: 75%;
-    margin-top: 5%;
-}
-
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    background-color: #272640;
-}
-
 #mode {
 	position: absolute;
 	top: 2%;
@@ -179,67 +148,49 @@ footer p {
     padding: 0.3rem;
 	cursor: pointer;
     border-radius: 0.5rem;
-    background-color: white;
-    color: #144552;
+    background-color: #2994b1;
+    color: white;
     width: 20px;
     text-align: center;
 }
 
-@media(max-width:700px){
-    .hamburguer{
+@media screen and (max-width: 600px){
+    #menu {
         display: block;
-
+        font-size: 3rem;
+        font-weight:700;
+        text-decoration: none;
+        padding: .5rem .75rem;
+        background-color: #eee;
+        color: #144552;
     }
-
-    .hamburguer.active .bar:nth-child(2){
-        opacity: 0;
-        margin-right: 25%;
+    
+    #menu::before {
+        content: "≡";
     }
-
-    .hamburguer.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-        background-color: white;
-        margin-right: 25%;
+    
+    nav {
+        background-color: #144552;
     }
-
-    .hamburguer.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-        background-color: white;
-        margin-right: 25%;
+    .navigation {
+        list-style: none;
+        margin: 0 auto;
+        max-width: 600px;
     }
-
-    .nav-menu{
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: #272640;
-        width: 100%;
-        text-align: center;
+    
+    .navigation li {
+        display: none;
     }
-
-    .nav-item{
-        margin: 16px 0;
+    .navigation a {
+        display: block;
     }
-
-    .nav-menu.active{
-        left: 0;
+    
+    .show li {
+        display: block;
     }
-
-    nav a{
-        text-align: left;
-        padding-left: 30%;
-        margin-left: 5%;
-        margin-right: 15%;
+    
+    #menu.show::before {
+        content: "X";
     }
-
-    nav a:hover{
-        text-align: left;
-        padding-left: 30%;
-        margin-left: 5%;
-        margin-right: 15%;
-    }
-
-
+    
 }
