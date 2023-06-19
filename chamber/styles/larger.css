@@ -164,7 +164,7 @@ figcaption {
     padding: 10px;
 }
 
-fig {
+figure {
     margin-top: 0%;
     padding: 10px;
     width: 95%;
@@ -172,7 +172,7 @@ fig {
     margin-right: auto;
 }
 
-fig img {
+figure img {
     box-shadow: 10px 5px 5px #14455292;
 }
 
