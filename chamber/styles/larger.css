@@ -37,6 +37,7 @@ header {
     background-color: #144552;
     display: flex;
     padding: 10px;
+    border-radius: 0.5rem;
 }
 
 .logo {
@@ -196,6 +197,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    border-radius: 0.5rem;
 }
 
 footer img {
