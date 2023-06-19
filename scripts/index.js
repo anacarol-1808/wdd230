@@ -20,16 +20,25 @@ The CSS class rules will handle the different views, layouts, and displays.
 /* Dark Mode setup */
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("#main");
-let heading = document.querySelector("main-h2-heading");
+const heading = document.querySelector("#heading");
+const list = document.querySelector('#activity-list');
+const information = document.querySelector('#information');
 
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("🌙")) {
 		main.style.background = "#000";
 		main.style.color = "#fff";
+		heading.style.color = "#fff";
+		list.style.color = "#fff";
+		information.style.color = "#fff";
 		modeButton.textContent = "✖";
 	} else {
 		main.style.background = "#fff";
 		main.style.color = "#000";
+		heading.style.color = "#3E1F47";
+		list.style.color = "#000";
+		information.style.color = "#000";
 		modeButton.textContent = "🌙";
+
 	}
 });
