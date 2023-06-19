@@ -15,6 +15,42 @@
     .grid-two {
         display: block;
     }
+
+    #menu {
+        display: block;
+        font-size: 3rem;
+        font-weight:700;
+        text-decoration: none;
+        padding: .5rem .75rem;
+        background-color: #eee;
+        color: #144552;
+    }
+    
+    #menu::before {
+        content: "≡";
+    }
+    
+    nav {
+        background-color: #006466;
+        margin: 2px;
+    }
+    
+    .navigation li {
+        display: none;
+    }
+    .navigation a {
+        display: block;
+    }
+    
+    .show li {
+        display: block;
+    }
+    
+    #menu.show::before {
+        content: "X";
+    }
+
+
    
 }
-    
+

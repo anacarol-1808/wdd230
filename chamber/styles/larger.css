@@ -78,7 +78,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    border: 3px solid #852c85;
+    border: 5px solid #852c85;
     color: #852c85;
 }
 
@@ -203,19 +203,10 @@ footer p {
     align-items: center;
 }
 
-.hamburguer {
-    display: block;
-    cursor: pointer;
-    margin-left: 75%;
-    margin-top: 5%;
+#menu {
+    display: none;
 }
 
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    background-color: #272640;
-}
+
 
 
