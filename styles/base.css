@@ -182,11 +182,12 @@ footer p {
 	font-family: 'Cinzel', serif;
 }
 
-#iframe {
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
+iframe {
+    display: block;
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
+    
 }
 
 @media screen and (max-width: 700px){

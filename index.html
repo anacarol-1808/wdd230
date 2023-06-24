@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <img id="profile-picture" src="images/carol-faccinetto-profile-picture.webp" alt="Carol Faccinetto">
+        <img id="profile-picture" src="images/carol-faccinetto-profile-picture.webp" alt="Carol Faccinetto" loading="lazy">
         <h1>Carol Faccinetto</h1>
     </header>
     <div id="mode">
@@ -40,7 +40,7 @@
             <picture>
                 <source srcset="images/sao-paulo-brazil-temple-night-lds-small.webp" media="(max-width: 400px)">
                 <source srcset="images/sao-paulo-brazil-temple-night-lds-medium.webp" media="(max-width: 960px)">
-                <img src="images/sao-paulo-brazil-temple-night-lds-large.webp" alt="Sao Paulo Temple" width="500" height="250">
+                <img src="images/sao-paulo-brazil-temple-night-lds-large.webp" alt="Sao Paulo Temple" width="500" height="250" loading="lazy">
             </picture>
         </div>
         <h2 id="heading">WDD 230: Web Frontend Development</h2>
@@ -58,7 +58,7 @@
                 <h3>Information</h3>
                 <div id="information">
                     <p>Location</p>
-                    <p>Visits</p>
+                    <p>Number of visits: </span><span class="visits"></span></p>
                     <p>Weather</p>
                 </div>
             </section>   
@@ -68,7 +68,7 @@
     <footer>
         <p>
             &copy;<span id="year"></span> Carol Faccinetto | Sao Paulo - SP Brazil
-            <img src="images/brazilian-flag-icon.webp" alt="Brazilian Flag">
+            <img src="images/brazilian-flag-icon.webp" alt="Brazilian Flag" loading="lazy">
         </p>
         <p>
             Last Modified: <span id="lastModified"></span>
