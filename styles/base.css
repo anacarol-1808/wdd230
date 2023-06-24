@@ -148,8 +148,9 @@ footer p {
     padding: 0.3rem;
 	cursor: pointer;
     border-radius: 0.5rem;
-    background-color: #2994b1;
+    background-color: black;
     color: white;
+    border: 2px solid white;
     width: 20px;
     text-align: center;
 }
