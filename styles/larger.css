@@ -40,5 +40,14 @@
         grid-template-columns: 2fr 1fr;
            
     }
-    
+
+    #overlay p {
+        font-size: 3em;
     }
+
+    #overlay {
+        top: 530px;
+        left: 30px;
+    }
+    
+}

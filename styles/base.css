@@ -154,6 +154,34 @@ footer p {
     text-align: center;
 }
 
+.hero picture {
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+#overlay {
+    position: absolute;
+    top: 530px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+
+#overlay p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family: 'Cinzel', serif;
+}
+
 @media screen and (max-width: 700px){
     #menu {
         display: block;
@@ -192,5 +220,15 @@ footer p {
     #menu.show::before {
         content: "X";
     }
+
+    #overlay p {
+        font-size: 1.5rem;
+    }
+
+    #overlay {
+        top: 330px;
+        left: 30px;
+    }
     
 }
+
