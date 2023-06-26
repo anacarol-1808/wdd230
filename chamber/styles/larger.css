@@ -216,6 +216,53 @@ footer p {
     display: none;
 }
 
+.discover-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.partners {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 5px #006466;
+    border-radius: 0.5rem;
+}
+
+.partners img {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+}
+
+.statistics {
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 5px #006466;
+    border-radius: 0.5rem;
+}
+
+.calendar {
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 5px #006466;
+    border-radius: 0.5rem;
+    margin-bottom: 20px;
+}
+
+#welcome-message{
+    grid-column: 1/3;
+}
+
 
 
 
