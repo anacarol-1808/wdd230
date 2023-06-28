@@ -1,4 +1,4 @@
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
     .name h1{
         font-size: 1.8rem;
         
@@ -58,6 +58,10 @@
     
     #menu.show::before {
         content: "X";
+    }
+
+    .grid-one {
+        display: block;
     }
 
 
