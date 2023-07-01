@@ -191,6 +191,30 @@ iframe {
     
 }
 
+#confirmation-message {
+    text-align: center;
+    padding: 10%;
+}
+
+#confirmation-line1 {
+    font-size: 2rem;
+}
+
+#confirmation-line2 {
+    font-size: 1.5rem;
+}
+
+fieldset {
+    margin-top: 20px;
+}
+ 
+#form-h1 {
+    color: #006466;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+
 @media screen and (max-width: 700px){
     #menu {
         display: block;
