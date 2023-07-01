@@ -1,14 +1,15 @@
 :root {
-	background-color: #fff0f3;
-	text-align: left;
-	color: #002c2d;
+	--form-background-color: #fff0f3;
+	--form-text-color: #002c2d;
+	--form-warning-message: red;
 
 }
 
 form {
 	width: 90%;
 	margin: 0 auto;
-	
+	background-color: var(--form-background-color);
+	color: var(--form-text-color);
 }
 
 form label {
@@ -21,7 +22,7 @@ form label {
 	visibility: visible;
 	margin: 10px;
 	padding: 0.5rem;
-	color: red;
+	color: var(--form-warning-message);
 }
 
 #pwd:invalid {
