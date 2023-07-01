@@ -11,7 +11,7 @@ form label {
 }
 
 #formmessage {
-	visibility: none;
+	visibility: visible;
 	margin: 10px;
 	padding: 0.5rem;
 	color: red;
