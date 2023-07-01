@@ -19,10 +19,9 @@ else {
     const previousVisit = new Date(lastVisit);
     const timeDiff = (currentDate.getTime() - previousVisit.getTime());
 
-    const daysSinceLastVisit = Math.floor(timeDiff / 84600000);
+    let daysSinceLastVisit = Math.floor(timeDiff / 84600000);
     console.log(daysSinceLastVisit);
 
-    
     localStorage.setItem("lastVisit", currentDate)
 
     if (daysSinceLastVisit < 1){

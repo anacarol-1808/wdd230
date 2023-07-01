@@ -1,0 +1,67 @@
+/* Professional Palette: https://coolors.co/palette/006466-065a60-0b525b-144552-1b3a4b-212f45-272640-312244-3e1f47-4d194d */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Open+Sans&family=Source+Serif+4&display=swap');
+
+:root {
+	--back: black;
+  --back2: rgb(88, 88, 88);
+  --foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsla(0,0%,20%,.8);
+	--borderlight: hsla(0,0%,33%,.3);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 1.5rem;
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--back);
+    font-size: 1.2rem;
+  }
+
+tr:first-child th, .highlight {
+	background-color: var(--back);
+	color: var(--forelight);
+    padding: 20px;
+}
+
+.highlight th:first-child {
+    background-color: var(--back);
+}
+
+.highlight th {
+    padding: 20px;
+}
+
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+    
+}
+
+th {
+	background-color: var(--back2);
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+

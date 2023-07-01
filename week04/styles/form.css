@@ -1,0 +1,52 @@
+form {
+	width: 90%;
+	margin: 0 auto;
+	
+}
+
+form label {
+	display: block;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#formmessage {
+	visibility: none;
+	margin: 10px;
+	padding: 0.5rem;
+	color: red;
+}
+
+#pwd:invalid {
+	background-color: #fff0f3;
+	animation: shaketext 500ms;
+}
+
+#range {
+	width: 180px;
+	margin-bottom: 0;
+}
+
+#rangevalue {
+	font-size: 1.5rem;
+	color: navy;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 0 0 118px;
+	width: 180px;
+	margin-bottom: 20px;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
+
+.submitBtn {
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

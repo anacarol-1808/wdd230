@@ -1,0 +1,267 @@
+/* Professional Palette: https://coolors.co/palette/006466-065a60-0b525b-144552-1b3a4b-212f45-272640-312244-3e1f47-4d194d */
+/* Import Fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Open+Sans&family=Source+Serif+4&display=swap');
+
+/* Brand - font-family: 'Cinzel', serif; */
+/* Headings - font-family: 'Source Serif 4', serif; */
+/* Paragraph - font-family: 'Open Sans', sans-serif; */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    margin-left: 0.8rem;
+    margin-top: 3.8rem;
+    font-size: 2rem;
+    color: white;
+}
+
+h2, h3, h4 {
+    font-family: 'Source Serif 4', serif;
+}
+
+header {
+    background-color: #144552;
+    display: flex;
+}
+
+#profile-picture {
+    width: 100px;
+    height: 150px;
+    margin: 0.8rem;
+    margin-left: 10%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.234);
+    border-radius: 0.2rem;
+}
+
+
+nav ul {
+    list-style: none;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #272640;
+    text-align: center;
+    padding-left: 0px;
+}
+
+nav a {
+    display: block;
+    background-color: #272640;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav li{
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 auto;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #852c85;
+    text-align: center;
+}
+
+#main h2 {
+    color: #3E1F47;
+    font-size: 1.5rem;
+    font-family: 'Cinzel', serif;
+    padding-left: 2rem;
+    margin-bottom: 0px;
+}
+
+hr {
+    width: 98%;
+    margin-bottom: 10px;
+    height: 1px;
+    background-color: #3E1F47;
+}
+
+.grid {
+    display: block;
+       
+}
+
+.card {
+    display: grid;
+    border-radius: 0.2rem;
+    font-size: 1.3rem;
+    margin: 1rem;
+    padding-top: 0;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.234);
+    color: #212F45;
+}
+
+.card a{
+    color: #212F45;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    background-color: #006466;
+    height: 60px;
+    padding: 0.5rem;
+    padding-top: 1.3rem;
+    margin-top: 0;
+    border-radius: 0.2rem;
+}
+
+#information {
+    text-align: center;
+}
+
+footer {
+    background-color: #144552;
+    display: grid;
+    color: white;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 50px;
+    margin: 1rem;
+    margin-bottom: 0;
+}
+
+footer p {
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+#mode {
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	font-size: 1rem;
+    padding: 0.3rem;
+	cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    width: 20px;
+    text-align: center;
+}
+
+.hero picture {
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+#overlay {
+    position: absolute;
+    top: 530px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+
+#overlay p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family: 'Cinzel', serif;
+}
+
+iframe {
+    display: block;
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+
+#confirmation-message {
+    text-align: center;
+    padding: 10%;
+}
+
+#confirmation-line1 {
+    font-size: 2rem;
+}
+
+#confirmation-line2 {
+    font-size: 1.5rem;
+}
+
+fieldset {
+    margin-top: 20px;
+}
+ 
+#form-h1 {
+    color: #006466;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 700px){
+    #menu {
+        display: block;
+        font-size: 3rem;
+        font-weight:700;
+        text-decoration: none;
+        padding: .5rem .75rem;
+        background-color: #eee;
+        color: #144552;
+    }
+    
+    #menu::before {
+        content: "≡";
+    }
+    
+    nav {
+        background-color: #144552;
+    }
+    .navigation {
+        list-style: none;
+        margin: 0 auto;
+        max-width: 700px;
+    }
+    
+    .navigation li {
+        display: none;
+    }
+    .navigation a {
+        display: block;
+    }
+    
+    .show li {
+        display: block;
+    }
+    
+    #menu.show::before {
+        content: "X";
+    }
+
+    #overlay p {
+        font-size: 1.5rem;
+    }
+
+    #overlay {
+        top: 330px;
+        left: 30px;
+    }
+    
+}
+
