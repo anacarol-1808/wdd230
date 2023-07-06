@@ -64,7 +64,26 @@
         display: block;
     }
 
+    #table {
+        display: none;
+    }
 
+    .grid-membership {
+        display: block;
+    }
+
+    .button input {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+
+    input {
+        height: 50px;
+    }
+
+    
    
 }
 

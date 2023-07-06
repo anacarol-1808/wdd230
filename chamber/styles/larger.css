@@ -285,6 +285,94 @@ img:hover {
     border-radius: 0.5rem;
 }
 
+form {
+	width: 90%;
+	margin: 0 auto;
+	background-color: rgb(245, 245, 245);
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+}
+
+fieldset {
+    border-radius: 0.5rem;
+    padding: 20px;
+    margin: 10px;
+}
+
+form label {
+    display: block;
+    padding: 5px;
+}
+
+form input {
+    padding: 5px;
+    margin: 5px;
+}
+
+.top input {
+    display: block;
+    width: 55%;
+}
+
+.grid-membership {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+table {
+    border: solid 1px rgb(221, 221, 221);
+}
+
+td {
+    border: solid 1px rgb(221, 221, 221);
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.organization {
+    margin-left: 20px;
+    border-radius: 0.5rem;
+    width: 90%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    box-shadow: 10px 5px 5px darkgray;
+}
+
+.button input:hover{
+    background-color: #006466;
+    color: white;
+}
+
+.thankyou-one {
+    margin-top: 70px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.thankyou-two {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+
+
+
 
 
 

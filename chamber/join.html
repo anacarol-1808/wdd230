@@ -35,91 +35,95 @@
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>New Member Information</legend>
-                <label>First Name* <input type="text" id="firstName" name="firstName" required></label>
-                <label>Last Name* <input type="text" id="lastName" name="lastName" required></label>
-                <label>Title or Position <input type="text" id="title" name="title"></label>
-                <label>Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" placeholder="name@gmail.com" required></label>
-                <label>Mobile Number <input type="telephone" id="telephone" name="telephone" placeholder="000-000-0000" required></label>
-                <label>Organization's Name* <input type="text" id="organization" name="organization" required></label>
+                <label class="top">First Name* <input type="text" id="firstName" name="firstName" required></label>
+                <label class="top">Last Name* <input type="text" id="lastName" name="lastName" required></label>
+                <label class="top">Title or Position <input type="text" id="title" name="title"></label>
+                <label class="top">Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" placeholder="name@gmail.com" required></label>
+                <label class="top">Mobile Number <input type="telephone" id="telephone" name="telephone" placeholder="000-000-0000" required></label>
+                <label class="top">Organization's Name* <input type="text" id="organization" name="organization" required></label>
             </fieldset>
-            <fieldset>
-                <legend>Membership Level</legend>
-                <label><input type="radio" name="membership" value="non-profit"> Non-Profit</label>
-                <label><input type="radio" name="membership" value="bronze"> Bronze</label>
-                <label><input type="radio" name="membership" value="silver"> Silver</label>
-                <label><input type="radio" name="membership" value="gold"> Gold</label>
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th colspan="5" scope="colgroup">Chamber Memberships</th>
-                        </tr>
-                        <tr class="highlight">
-                            <th scope="col"></th>
-                            <th scope="col">Non-Profit</th>
-                            <th scope="col">Bronze</th>
-                            <th scope="col">Silver</th>
-                            <th scope="col">Gold</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Training</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                        </tr>
-                        <tr>
-                            <td>Regular Events</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                        </tr>
-                        <tr>
-                            <td>Special Events</td>
-                            <td>❌</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                        </tr>
-                        <tr>
-                            <td>Events Discount</td>
-                            <td>❌</td>
-                            <td>❌</td>
-                            <td>✔️</td>
-                            <td>✔️</td>
-                            
-                        </tr>
-                        <tr>
-                            <td>Avertising</td>
-                            <td>❌</td>
-                            <td>❌</td>
-                            <td>❌</td>
-                            <td>✔️</td>
-                        </tr>
-                        <tr>
-                            <td>Price</td>
-                            <td>FREE</td>
-                            <td>$20</td>
-                            <td>$40</td>
-                            <td>$60</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <fieldset>                    
+                    <legend>Membership Level</legend>
+                    <div class="grid-membership">
+                        <div class="column">
+                        <label class="radio"><input type="radio" name="membership" value="non-profit"> Non-Profit</label>
+                        <label class="radio"><input type="radio" name="membership" value="bronze"> Bronze</label>
+                        <label class="radio"><input type="radio" name="membership" value="silver"> Silver</label>
+                        <label class="radio"><input type="radio" name="membership" value="gold"> Gold</label>
+                        </div>
+                        
+                        <div class="column">
+                            <table id="table">
+                                <thead>
+                                    <tr>
+                                        <th colspan="5" scope="colgroup">Chamber Memberships</th>
+                                    </tr>
+                                    <tr class="highlight">
+                                        <th scope="col"></th>
+                                        <th scope="col">Non-Profit</th>
+                                        <th scope="col">Bronze</th>
+                                        <th scope="col">Silver</th>
+                                        <th scope="col">Gold</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Training</td>
+                                        <td>✔️</td>
+                                        <td>✔️</td>
+                                        <td>✔️</td>
+                                        <td>✔️</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Regular Events</td>
+                                        <td>✔️</td>
+                                        <td>✔️</td>
+                                        <td>✔️</td>
+                                        <td>✔️</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Special Events</td>
+                                        <td>❌</td>
+                                        <td>✔️</td>
+                                        <td>✔️</td>
+                                        <td>✔️</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Events Discount</td>
+                                        <td>❌</td>
+                                        <td>❌</td>
+                                        <td>✔️</td>
+                                        <td>✔️</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>Avertising</td>
+                                        <td>❌</td>
+                                        <td>❌</td>
+                                        <td>❌</td>
+                                        <td>✔️</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Price</td>
+                                        <td>FREE</td>
+                                        <td>$20</td>
+                                        <td>$40</td>
+                                        <td>$60</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
             </fieldset>
 
-            <p><label>Organization's Description</label></p>
-            <textarea type="text" id="description" name="description" rows="6" cols="50" placeholder="type here..."></textarea>
+            <p><label class="organization">Organization's Description</label></p>
+            <textarea class="organization" type="text" id="description" name="description" rows="6" cols="50" placeholder="type here..."></textarea>
             
             <p><span id="timestamp"></span></p>
             <label><input type="hidden" id="timestamp" name="timestamp"></label>
-            <input type="submit" value="Create My Membership" class="submitBtn" onclick="myFunction(event)">
-
-            
-            
-
+            <div class="button" >
+                <input type="submit" value="Create My Membership" class="submitBtn" onclick="myFunction(event)">
+            </div>        
         </form>
     </main>
     <footer>
