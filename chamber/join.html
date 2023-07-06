@@ -48,12 +48,73 @@
                 <label><input type="radio" name="membership" value="bronze"> Bronze</label>
                 <label><input type="radio" name="membership" value="silver"> Silver</label>
                 <label><input type="radio" name="membership" value="gold"> Gold</label>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="5" scope="colgroup">Chamber Memberships</th>
+                        </tr>
+                        <tr class="highlight">
+                            <th scope="col"></th>
+                            <th scope="col">Non-Profit</th>
+                            <th scope="col">Bronze</th>
+                            <th scope="col">Silver</th>
+                            <th scope="col">Gold</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Training</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                        </tr>
+                        <tr>
+                            <td>Regular Events</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                        </tr>
+                        <tr>
+                            <td>Special Events</td>
+                            <td>❌</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                        </tr>
+                        <tr>
+                            <td>Events Discount</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Avertising</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✔️</td>
+                        </tr>
+                        <tr>
+                            <td>Price</td>
+                            <td>FREE</td>
+                            <td>$20</td>
+                            <td>$40</td>
+                            <td>$60</td>
+                        </tr>
+                    </tbody>
+                </table>
             </fieldset>
+
             <p><label>Organization's Description</label></p>
             <textarea type="text" id="description" name="description" rows="6" cols="50" placeholder="type here..."></textarea>
-
-            <p>Timestamp: <span id="timestamp"></span></p>
             
+            <p><span id="timestamp"></span></p>
+            <label><input type="hidden" id="timestamp" name="timestamp"></label>
             <input type="submit" value="Create My Membership" class="submitBtn" onclick="myFunction(event)">
 
             
