@@ -1,0 +1,25 @@
+{
+    "familyName" : "Smith",
+    "moveDate" : "Jul 7, 2023",
+    "numMembers" : 3,
+    "visited" : true,
+    "familyMembers" : [
+        {
+            "name" : "John",
+            "gender" : "M",
+            "birtdate" : "Jan 20, 1989"
+        },
+        {
+            "name" : "Jane",
+            "gender" : "F",
+            "birtdate" : "Jul 17, 1990"
+        },
+        {
+            "name" : "Mary",
+            "gender" : "F",
+            "birtdate" : "Aug 10, 2017"
+        }
+    ]
+}
+
+
