@@ -14,8 +14,6 @@ const create = document.querySelector('#activity-list');
 
 getLinks();
 
-let index = 0;
-
 function displayLinks(weeks) {
     console.log(weeks.lenght)
     weeks.forEach(item => {
@@ -34,7 +32,7 @@ function displayLinks(weeks) {
             console.log(element);
             let anchor = document.createElement('a');
             anchor.setAttribute('href', element.url);
-            anchor.textContent = `${element.title} | `;
+            anchor.textContent = `${element.title} | `;            
             line.appendChild(anchor);
         });
 
