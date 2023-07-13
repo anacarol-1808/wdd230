@@ -1,0 +1,63 @@
+{
+    "members" : [
+        {
+            "name" : "Sherwin Williams Brasil Indústria Comércio",
+            "address" : "Av. Ibirama, 480 - Parque Industrial Daci, Taboão da Serra - SP, 06785-300, Brasil",
+            "phoneNumber" : "+55 11 2137-5000",
+            "website" : "https://www.sherwin-williams.com.br/",
+            "icon" : "chamber/images/sherwin_williams-logo.webp",
+            "membership" : "gold"
+        },
+        {
+            "name" : "Prodesp - Companhia de Processamento de Dados do Estado de São Paulo",
+            "address" : "R. Agueda Gonçalves, 240 - Jardim Pedro Goncalves, Taboão da Serra - SP, 06760-900, Brasil",
+            "phoneNumber" : "+55 11 2845-6000",
+            "website" : "http://www.prodesp.sp.gov.br/",
+            "icon" : "chamber/images/prodesp-logo.webp",
+            "membership" : "gold"
+        },
+        {
+            "name" : "Biolab Farmacêutica",
+            "address" : "Av. Paulo Ayres, 280 - Vila Iasi, Taboão da Serra - SP, 06767-220, Brasil",
+            "phoneNumber" : "+55 800 724 6522",
+            "website" : "http://www.biolabfarma.com.br/",
+            "icon" : "chamber/images/biolab-logo.webp",
+            "membership" : "gold"
+        },
+        {
+            "name" : "Laboratório Químico Farmacêutico Bérgamo",
+            "address" : "R. Raphael de Marco, 43 - Parque Industrial das Oliveiras, Taboão da Serra - SP, 06765-350, Brasil",
+            "phoneNumber" : "+55 11 4787-0198",
+            "website" : "http://www.bergamobrasil.com.br/",
+            "icon" : "chamber/images/bergamo-logo.webp",
+            "membership" : "silver"
+        },
+        {
+            "name" : "Cinpal Cia Industrial de Peças para Automóveis",
+            "address" : "Rod. Régis Bittencourt, 3895 - Jardim Tres Marias, Taboão da Serra - SP, 06768-000, Brasil",
+            "phoneNumber" : "+55 11 2186-3700",
+            "website" : "http://www.cinpal.com.br/",
+            "icon" : "chamber/images/cinpal-logo.webp",
+            "membership" : "silver"
+        },
+        {
+            "name" : "Huntsman Advanced Materials Química Brasil Ltda",
+            "address" : "Av. Ibirama, 518 - Parque Industrial Daci, Taboão da Serra - SP, 06785-300, Brasil",
+            "phoneNumber" : "+55 11 4138-9201",
+            "website" : "https://www.huntsman.com/",
+            "icon" : "chamber/images/huntsman-logo.webp",
+            "membership" : "silver"
+        },
+        {
+            "name" : "CCI Concessões e Construções de Infraestrutura SA",
+            "address" : "R. Maria Bento de Lemos, 1800 - Cidade Intercap, Taboão da Serra - SP, 06757-130, Brasil",
+            "phoneNumber" : "+55 11 4788-3355",
+            "website" : "http://cci.com.br/",
+            "icon" : "chamber/images/CCI -logo.webp",
+            "membership" : "bronze"
+        }
+    ]
+}
+
+
+
