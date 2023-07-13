@@ -6,6 +6,7 @@
             "phoneNumber" : "+55 11 2137-5000",
             "website" : "https://www.sherwin-williams.com.br/",
             "icon" : "chamber/images/sherwin_williams-logo.webp",
+            "logo" : "Sherwin Williams Logo",
             "membership" : "gold"
         },
         {
@@ -14,6 +15,7 @@
             "phoneNumber" : "+55 11 2845-6000",
             "website" : "http://www.prodesp.sp.gov.br/",
             "icon" : "chamber/images/prodesp-logo.webp",
+            "logo" : "Prodesp Logo",
             "membership" : "gold"
         },
         {
@@ -22,6 +24,7 @@
             "phoneNumber" : "+55 800 724 6522",
             "website" : "http://www.biolabfarma.com.br/",
             "icon" : "chamber/images/biolab-logo.webp",
+            "logo" : "Biolab Logo",
             "membership" : "gold"
         },
         {
@@ -30,6 +33,7 @@
             "phoneNumber" : "+55 11 4787-0198",
             "website" : "http://www.bergamobrasil.com.br/",
             "icon" : "chamber/images/bergamo-logo.webp",
+            "logo" : "Bergamo Logo",
             "membership" : "silver"
         },
         {
@@ -38,6 +42,7 @@
             "phoneNumber" : "+55 11 2186-3700",
             "website" : "http://www.cinpal.com.br/",
             "icon" : "chamber/images/cinpal-logo.webp",
+            "logo" : "Cinpal Logo",
             "membership" : "silver"
         },
         {
@@ -46,6 +51,7 @@
             "phoneNumber" : "+55 11 4138-9201",
             "website" : "https://www.huntsman.com/",
             "icon" : "chamber/images/huntsman-logo.webp",
+            "logo" : "Huntsman Logo",
             "membership" : "silver"
         },
         {
@@ -54,6 +60,7 @@
             "phoneNumber" : "+55 11 4788-3355",
             "website" : "http://cci.com.br/",
             "icon" : "chamber/images/CCI -logo.webp",
+            "logo" : "CCI Logo",
             "membership" : "bronze"
         }
     ]
