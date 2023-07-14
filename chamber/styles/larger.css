@@ -221,25 +221,18 @@ footer p {
     grid-template-columns: 1fr 2fr;
 }
 
-.partners {
+.mission {
     margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: justify;
     border: solid 5px #006466;
     border-radius: 0.5rem;
+    padding: 5%;
 }
 
-.partners img {
-    width: 70%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 20%;
-    
-}
-
-.statistics {
+.basic-sidebar {
     margin-top: 10%;
     padding: 5%;
     display: flex;
@@ -261,10 +254,13 @@ footer p {
 }
 
 figure img{
-    width: 100%;
+    display: block;
+    width: 80%;
     /* width:633px; */
     height: auto;
     /* height: 422px; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .images {
