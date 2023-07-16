@@ -65,7 +65,9 @@
     }
 
     #table {
-        display: none;
+        display: block;
+        margin-top: 50px;
+        width: 90%;
     }
 
     .grid-membership {
