@@ -73,10 +73,11 @@
         </div>
         <div class="grid-three">
             <div class="weather">
-                <p>Weather</p>
-                <i class='fas fa-cloud-sun-rain'></i><p>&#xf6c4; 33 oC</p>
-                <p>Partially Coudly</p>
-                <p>Humidity: 82%</p>
+                <p>Weather: <span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="images/tiny-placeholder.png" alt="tiny-placeholder">
+                    <figcaption id="weather-figcaption"></figcaption>
+                </figure>
                 
             </div>
         </div>
@@ -101,6 +102,7 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/index.js"></script>
+    <script src="scripts/weather.js"></script>
     
 </body>
 </html>
