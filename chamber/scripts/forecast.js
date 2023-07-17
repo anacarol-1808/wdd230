@@ -1,4 +1,3 @@
-
 // select HTML elements in the document
 const divForecast = document.querySelector('.forecast');
 
@@ -17,8 +16,13 @@ const dayThreeTemp = document.querySelector('#day3-temp');
 const dayThreeIcon = document.querySelector('#day3-icon');
 const dayThreeFigcaption = document.querySelector('#day3-figcaption');
 
+const dayFour = document.querySelector('#day4');
+const dayFourTemp = document.querySelector('#day4-temp');
+const dayFourIcon = document.querySelector('#day4-icon');
+const dayFourFigcaption = document.querySelector('#day4-figcaption');
 
-const url2 = 'https://api.openweathermap.org/data/2.5/forecast?q=Taboão da Serra,br&appid=399df7f14208ad03f961dd06fd29878a';
+
+const url2 = 'https://api.openweathermap.org/data/2.5/forecast?q=Taboão da Serra,br&units=imperial&appid=22766f88ec197be24284d775f68e916c';
 
 async function apiFetch() {
   try {
@@ -38,7 +42,7 @@ async function apiFetch() {
 apiFetch();
 
 function displayResults(data) {
-  //console.log(data.list[0].dt_txt);
+  console.log(data.list[0].dt_txt);
 
   dayOne.textContent = `${data.list[0].dt_txt}`;
   dayOneTemp.textContent = `${data.list[0].main.temp}`;
@@ -48,19 +52,29 @@ function displayResults(data) {
   dayOneIcon.setAttribute('alt', descForecastOne);
   dayOneFigcaption.textContent = `${data.list[0].weather[0].description}`;
 
-  dayTwo.textContent = `${data.list[5].dt_txt}`;
-  dayTwoTemp.textContent = `${data.list[0].main.temp}`;
-  const iconsrcForecastTwo = `https://openweathermap.org/img/w/${data.list[1].weather[0].icon}.png`;
-  let descForecastTwo = data.list[1].weather[0].description;
+  dayTwo.textContent = `${data.list[10].dt_txt}`;
+  dayTwoTemp.textContent = `${data.list[10].main.temp}`;
+  const iconsrcForecastTwo = `https://openweathermap.org/img/w/${data.list[10].weather[0].icon}.png`;
+  let descForecastTwo = data.list[10].weather[0].description;
   dayTwoIcon.setAttribute('src', iconsrcForecastTwo);
   dayTwoIcon.setAttribute('alt', descForecastTwo);
-  dayTwoFigcaption.textContent = `${data.list[1].weather[0].description}`;
+  dayTwoFigcaption.textContent = `${data.list[10].weather[0].description}`;
 
-  // dayThree = document.querySelector('#day3');
-  // dayThreeTemp = document.querySelector('#day3-temp');
-  // dayThreeIcon = document.querySelector('#day3-icon');
-  // dayThreeFigcaption = document.querySelector('#day3-figcaption');
+  dayThree.textContent = `${data.list[20].dt_txt}`;
+  dayThreeTemp.textContent = `${data.list[20].main.temp}`;
+  const iconsrcForecastThree = `https://openweathermap.org/img/w/${data.list[20].weather[0].icon}.png`;
+  let descForecastThree = data.list[20].weather[0].description;
+  dayThreeIcon.setAttribute('src', iconsrcForecastTwo);
+  dayThreeIcon.setAttribute('alt', descForecastTwo);
+  dayThreeFigcaption.textContent = `${data.list[20].weather[0].description}`;
   
+  dayFour.textContent = `${data.list[30].dt_txt}`;
+  dayFourTemp.textContent = `${data.list[30].main.temp}`;
+  const iconsrcForecastFour = `https://openweathermap.org/img/w/${data.list[20].weather[0].icon}.png`;
+  let descForecastFour = data.list[30].weather[0].description;
+  dayFourIcon.setAttribute('src', iconsrcForecastFour);
+  dayFourIcon.setAttribute('alt', descForecastFour);
+  dayFourFigcaption.textContent = `${data.list[30].weather[0].description}`;
 
 }
 
