@@ -11,13 +11,13 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        //console.log(data); // testing only
+        //console.log(data.main.temp); // testing only
         displayResults(data); // uncomment when ready
       } else {
-          throw Error(await response.text());
+        throw Error(await response.text());
       }
     } catch (error) {
-        console.log(error);
+      console.log(error);
     }
   }
   
