@@ -25,7 +25,7 @@ async function apiFetch() {
     const response = await fetch(url2);
     if (response.ok) {
       const data = await response.json();
-      //console.log(data); // testing only
+      console.log(data); // testing only
       displayResults(data); // uncomment when ready
     } else {
       throw Error(await response.text());
@@ -38,7 +38,28 @@ async function apiFetch() {
 apiFetch();
 
 function displayResults(data) {
-  console.log(data.list[0].dt_txt);
+  //console.log(data.list[0].dt_txt);
+
+  dayOne.textContent = `${data.list[0].dt_txt}`;
+  dayOneTemp.textContent = `${data.list[0].main.temp}`;
+  const iconsrcForecastOne = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
+  let descForecastOne = data.list[0].weather[0].description;
+  dayOneIcon.setAttribute('src', iconsrcForecastOne);
+  dayOneIcon.setAttribute('alt', descForecastOne);
+  dayOneFigcaption.textContent = `${data.list[0].weather[0].description}`;
+
+  dayTwo.textContent = `${data.list[5].dt_txt}`;
+  dayTwoTemp.textContent = `${data.list[0].main.temp}`;
+  const iconsrcForecastTwo = `https://openweathermap.org/img/w/${data.list[1].weather[0].icon}.png`;
+  let descForecastTwo = data.list[1].weather[0].description;
+  dayTwoIcon.setAttribute('src', iconsrcForecastTwo);
+  dayTwoIcon.setAttribute('alt', descForecastTwo);
+  dayTwoFigcaption.textContent = `${data.list[1].weather[0].description}`;
+
+  // dayThree = document.querySelector('#day3');
+  // dayThreeTemp = document.querySelector('#day3-temp');
+  // dayThreeIcon = document.querySelector('#day3-icon');
+  // dayThreeFigcaption = document.querySelector('#day3-figcaption');
   
 
 }
