@@ -456,6 +456,18 @@ td {
     box-shadow: none;
 }
 
+#spotlightAdv {
+    display: block;
+    text-align: center;
+}
+
+#spotlightAdv h3 {
+    margin: 0;
+}
+
+#spotlightAdv p {
+    margin-bottom: 2rem;
+}
 
 
 

@@ -32,7 +32,7 @@ let index = 1;
 
 function displayMembers(data) {
 
-    while (index < 3) {
+    while (index <= 3) {
         //getting random position 
         let number = Math.random() * (lenght-1);
         let numberRound = Math.round(number);
@@ -47,6 +47,10 @@ function displayMembers(data) {
             // Give content to the elements
             heading.textContent = `${data.members[numberRound].name}`;
             paragraph.textContent = `${data.members[numberRound].spotlight}`;
+
+            //Append
+            division.appendChild(heading);
+            division.appendChild(paragraph);
 
             index++;
             
