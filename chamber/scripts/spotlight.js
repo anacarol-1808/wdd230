@@ -11,7 +11,7 @@ const division = document.querySelector("#spotlightAdv");
 async function getMembers() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    console.log(data);//testing only
+    //console.log(data);//testing only
     getLenght(data);
     displayMembers(data);
 }
@@ -24,43 +24,50 @@ function getLenght(data) {
     (data.members).forEach(item => {
         lenght++;
     });
-    console.log(`This is lenght ${lenght}`);
+    //console.log(`This is lenght ${lenght}`);
 }   
 
 
-let index = 1;
+let index = 0;
 const arrayOfNumbers = [];
 
-function displayMembers(data) {
 
-    while (index <= 3) {
+function displayMembers(data) {
+    while (index < 3) {
         //getting random position 
         let number = Math.random() * (lenght-1);
         let numberRound = Math.round(number);
-        // console.log(numberRound);
-        // console.log(data.members[0].membership);
+        //console.log(numberRound);
+        //console.log(arrayOfNumbers);
 
         let check = arrayOfNumbers.includes(numberRound, 0);
+        //console.log(check);
 
-        if (data.members[numberRound].membership == 'gold' | data.members[numberRound].membership == 'silver' && index == 0 && check ==  false) {
-            // Create needed elements
-            let heading = document.createElement('h3');
-            let paragraph = document.createElement('p');
+        if (check == false) {
+            if (data.members[numberRound].membership == 'gold' | data.members[numberRound].membership == 'silver') {
+                //Create needed elements
+                let heading = document.createElement('h3');
+                let paragraph = document.createElement('p');
 
-            // Give content to the elements
-            heading.textContent = `${data.members[numberRound].name}`;
-            paragraph.textContent = `${data.members[numberRound].spotlight}`;
+                // Give content to the elements
+                heading.textContent = `${data.members[numberRound].name}`;
+                paragraph.textContent = `${data.members[numberRound].spotlight}`;
 
-            //Append
-            division.appendChild(heading);
-            division.appendChild(paragraph);
+                //Append
+                division.appendChild(heading);
+                division.appendChild(paragraph);
 
-            index++;
-            arrayOfNumbers.push(numberRound);
+                //add Numberround to the array
+                arrayOfNumbers.push(numberRound);
+                index++;
+            }
+            
+            else {
+                index = index;
+            }
         }
         else {
             index = index;
         }
-   
     }
 }

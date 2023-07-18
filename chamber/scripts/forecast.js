@@ -53,13 +53,13 @@ function displayResults(data) {
   dayTwoIcon.setAttribute('alt', descForecastTwo);
   dayTwoFigcaption.textContent = `${data.list[10].weather[0].description}`;
 
-  dayThree.textContent = `${data.list[15].dt_txt}`;
-  dayThreeTemp.textContent = `${data.list[15].main.temp}`;
-  const iconsrcForecastThree = `https://openweathermap.org/img/w/${data.list[15].weather[0].icon}.png`;
-  let descForecastThree = data.list[15].weather[0].description;
+  dayThree.textContent = `${data.list[20].dt_txt}`;
+  dayThreeTemp.textContent = `${data.list[20].main.temp}`;
+  const iconsrcForecastThree = `https://openweathermap.org/img/w/${data.list[20].weather[0].icon}.png`;
+  let descForecastThree = data.list[20].weather[0].description;
   dayThreeIcon.setAttribute('src', iconsrcForecastTwo);
   dayThreeIcon.setAttribute('alt', descForecastTwo);
-  dayThreeFigcaption.textContent = `${data.list[15].weather[0].description}`;
+  dayThreeFigcaption.textContent = `${data.list[20].weather[0].description}`;
 
 }
 
