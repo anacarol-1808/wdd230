@@ -7,7 +7,8 @@
             "website" : "https://www.sherwin-williams.com.br/",
             "icon" : "images/sherwin_williams-logo.webp",
             "logo" : "Sherwin Williams Logo",
-            "membership" : "gold"
+            "membership" : "gold",
+            "spotlight" : "Spotlight, spotlight, spotlight, spotlight, spotlight, spotlight, spotlight."
         },
         {
             "name" : "Prodesp - Companhia de Processamento de Dados do Estado de São Paulo",
@@ -16,7 +17,8 @@
             "website" : "http://www.prodesp.sp.gov.br/",
             "icon" : "images/prodesp-logo.webp",
             "logo" : "Prodesp Logo",
-            "membership" : "gold"
+            "membership" : "gold",
+            "spotlight" : "Spotlight, spotlight, spotlight, spotlight, spotlight, spotlight, spotlight."
         },
         {
             "name" : "Biolab Farmacêutica",
@@ -25,7 +27,8 @@
             "website" : "http://www.biolabfarma.com.br/",
             "icon" : "images/biolab-logo.webp",
             "logo" : "Biolab Logo",
-            "membership" : "gold"
+            "membership" : "gold",
+            "spotlight" : "Spotlight, spotlight, spotlight, spotlight, spotlight, spotlight, spotlight."
         },
         {
             "name" : "Laboratório Químico Farmacêutico Bérgamo",
@@ -34,7 +37,8 @@
             "website" : "http://www.bergamobrasil.com.br/",
             "icon" : "images/bergamo-logo.webp",
             "logo" : "Bergamo Logo",
-            "membership" : "silver"
+            "membership" : "silver",
+            "spotlight" : "Spotlight, spotlight, spotlight, spotlight, spotlight, spotlight, spotlight."
         },
         {
             "name" : "Cinpal Cia Industrial de Peças para Automóveis",
@@ -43,7 +47,8 @@
             "website" : "http://www.cinpal.com.br/",
             "icon" : "images/cinpal-logo.webp",
             "logo" : "Cinpal Logo",
-            "membership" : "silver"
+            "membership" : "silver",
+            "spotlight" : "Spotlight, spotlight, spotlight, spotlight, spotlight, spotlight, spotlight."
         },
         {
             "name" : "Huntsman Advanced Materials Química Brasil Ltda",
@@ -52,7 +57,8 @@
             "website" : "https://www.huntsman.com/",
             "icon" : "images/huntsman-logo.webp",
             "logo" : "Huntsman Logo",
-            "membership" : "silver"
+            "membership" : "silver",
+            "spotlight" : "Spotlight, spotlight, spotlight, spotlight, spotlight, spotlight, spotlight."
         },
         {
             "name" : "CCI Concessões e Construções de Infraestrutura SA",
@@ -61,7 +67,8 @@
             "website" : "http://cci.com.br/",
             "icon" : "images/CCI-logo.webp",
             "logo" : "CCI Logo",
-            "membership" : "bronze"
+            "membership" : "bronze",
+            "spotlight" : "Spotlight, spotlight, spotlight, spotlight, spotlight, spotlight, spotlight."
         }
     ]
 }
