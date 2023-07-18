@@ -29,6 +29,7 @@ function getLenght(data) {
 
 
 let index = 1;
+const arrayOfNumbers = [];
 
 function displayMembers(data) {
 
@@ -40,26 +41,29 @@ function displayMembers(data) {
         // console.log(data.members[0].membership);
 
         if (data.members[numberRound].membership == 'gold' | data.members[numberRound].membership == 'silver') {
-            // Create needed elements
-            let heading = document.createElement('h3');
-            let paragraph = document.createElement('p');
-
-            // Give content to the elements
-            heading.textContent = `${data.members[numberRound].name}`;
-            paragraph.textContent = `${data.members[numberRound].spotlight}`;
-
-            //Append
-            division.appendChild(heading);
-            division.appendChild(paragraph);
-
-            index++;
             
-        } else {
-            index = index;
+            arrayOfNumbers.forEach(item => {
+                if (item != numberRound) {
+                // Create needed elements
+                let heading = document.createElement('h3');
+                let paragraph = document.createElement('p');
+
+                // Give content to the elements
+                heading.textContent = `${data.members[numberRound].name}`;
+                paragraph.textContent = `${data.members[numberRound].spotlight}`;
+
+                //Append
+                division.appendChild(heading);
+                division.appendChild(paragraph);
+
+                index++;
+                arrayOfNumbers.push(numberRound);
+                //console.log(arrayOfNumbers);
+                } else {
+                    index = index;
+                }
+            });
         }
-    }
-
-    
-
    
+    }
 }
