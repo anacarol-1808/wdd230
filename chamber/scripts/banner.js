@@ -7,12 +7,12 @@ const closeButton = document.querySelector("#close-x");
 
 
 closeButton.addEventListener("click", () => {
-	if (closeButton.textContent.includes("✖")) {
+	if (closeButton.textContent.includes("📅")) {
 		banner.style.display= "block";
-		closeButton.textContent = "📅";
+		closeButton.textContent = "✖";
 	} else {
 		banner.style.display = "none";
-		closeButton.textContent = "✖";
+		closeButton.textContent = "📅";
 
 	}
 });

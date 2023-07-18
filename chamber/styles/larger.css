@@ -469,6 +469,41 @@ td {
     margin-bottom: 2rem;
 }
 
+.banner {
+    text-align: center;
+    color: #144552;
+    background-color: #39aaca41;
+    font-size: 1.2rem;
+}
+
+.banner h1 {
+    color: #144552;
+    padding: .5rem;
+}
+
+.banner p {
+    padding: .5rem;
+    padding-bottom: 2rem;
+}
+
+.banner img {
+    margin: 1rem;
+    width: 300px;
+    height: auto;
+}
+
+#close-x {
+    background-color: #39aaca41;
+    padding: 0.5rem;
+    margin: 0;
+    padding-left: 5%;
+}
+
+#close-x:hover {
+    box-shadow: 0 0 10px #333;
+}
+
+
 
 
 
