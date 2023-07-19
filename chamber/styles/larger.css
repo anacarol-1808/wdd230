@@ -483,6 +483,7 @@ td {
     color: #144552;
     background-color: #39aaca41;
     font-size: 1.2rem;
+    margin: 5px;
 }
 
 .banner h2 {
@@ -503,6 +504,7 @@ td {
 
 #close-x {
     background-color: #39aaca41;
+    margin: 5px;
     padding: 0.5rem;
     padding-left: 4%;
     margin-left: 90%;
