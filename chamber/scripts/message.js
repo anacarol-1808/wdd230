@@ -7,7 +7,6 @@ display one of three possible messages about the time between page visits in the
 If the number of days is 1, then change the language to "day" not "days".*/
 
 const lastVisit = localStorage.getItem("lastVisit");
-console.log(lastVisit);
 
 if (lastVisit === null){
     document.querySelector("#message").innerHTML = `Welcome! Let us know if you have any questions`;
@@ -20,7 +19,6 @@ else {
     const timeDiff = (currentDate.getTime() - previousVisit.getTime());
 
     let daysSinceLastVisit = Math.floor(timeDiff / 84600000);
-    console.log(daysSinceLastVisit);
 
     localStorage.setItem("lastVisit", currentDate)
 
