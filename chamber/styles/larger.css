@@ -495,8 +495,8 @@ td {
 #close-x {
     background-color: #39aaca41;
     padding: 0.5rem;
-    margin: 0;
-    padding-left: 5%;
+    padding-left: 4%;
+    margin-left: 90%;
 }
 
 #close-x:hover {

@@ -11,7 +11,6 @@ const division = document.querySelector("#spotlightAdv");
 async function getMembers() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    //console.log(data);//testing only
     getLenght(data);
     displayMembers(data);
 }
@@ -24,7 +23,6 @@ function getLenght(data) {
     (data.members).forEach(item => {
         lenght++;
     });
-    //console.log(`This is lenght ${lenght}`);
 }   
 
 
@@ -37,11 +35,8 @@ function displayMembers(data) {
         //getting random position 
         let number = Math.random() * (lenght-1);
         let numberRound = Math.round(number);
-        //console.log(numberRound);
-        //console.log(arrayOfNumbers);
 
         let check = arrayOfNumbers.includes(numberRound, 0);
-        //console.log(check);
 
         if (check == false) {
             if (data.members[numberRound].membership == 'gold' | data.members[numberRound].membership == 'silver') {

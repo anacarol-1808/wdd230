@@ -11,8 +11,7 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        //console.log(data.main.temp); // testing only
-        displayResultsWeather(data); // uncomment when ready
+        displayResultsWeather(data);
       } else {
         throw Error(await response.text());
       }

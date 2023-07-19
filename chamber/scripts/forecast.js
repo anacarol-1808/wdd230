@@ -23,8 +23,7 @@ async function apiFetch() {
     const response = await fetch(url2);
     if (response.ok) {
       const data = await response.json();
-      //console.log(data); // testing only
-      displayResults(data); // uncomment when ready
+      displayResults(data);
     } else {
       throw Error(await response.text());
     }
@@ -36,7 +35,6 @@ async function apiFetch() {
 apiFetch();
 
 function displayResults(data) {
-  //console.log(data.list[0].dt_txt);
   dayOne.textContent = `${data.list[5].dt_txt}`;
   dayOneTemp.textContent = `${data.list[5].main.temp}`;
   const iconsrcForecastOne = `https://openweathermap.org/img/w/${data.list[5].weather[0].icon}.png`;
@@ -62,12 +60,6 @@ function displayResults(data) {
   dayThreeFigcaption.textContent = `${data.list[20].weather[0].description}`;
 
 }
-
-  // let date = "data.list[i].dt_txt";
-  // let temperature = "data.list[i].main.temp";
-  // let description = "data.list[i].weather[0].description";
-  // let icon = "data.list[i].weather[0].icon";
-
 
 
   
