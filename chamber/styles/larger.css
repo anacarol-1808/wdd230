@@ -83,6 +83,15 @@ nav ul li:hover {
     color: #852c85;
 }
 
+.active {
+    background-color: #852c85;
+}
+
+.active a{
+    color: white;
+}
+
+
 .hero img {
     display: block;
     margin-left: auto;
