@@ -89,6 +89,10 @@
         display: block;
     }
 
+    img:hover {
+        border: none;
+    }
+
     
    
 }

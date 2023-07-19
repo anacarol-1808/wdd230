@@ -273,7 +273,7 @@ figure img{
 }
 
 img:hover {
-    box-shadow: 0 0 50px #333;
+    border: 6px solid black;
 }
 
 #message{
