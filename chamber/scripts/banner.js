@@ -1,6 +1,6 @@
 const date = new Date();
 let day = date.getDay();
-console.log(day);
+//console.log(day);
 
 const banner = document.querySelector('.banner');
 const closeButton = document.querySelector("#close-x");
