@@ -241,6 +241,10 @@ footer p {
     padding: 5%;
 }
 
+.sidebar {
+    height: 100%;
+}
+
 .basic-sidebar {
     margin-top: 10%;
     padding: 5%;
@@ -260,6 +264,11 @@ footer p {
     border: solid 5px #006466;
     border-radius: 0.5rem;
     margin-bottom: 10%;
+}
+
+.trimester {
+    margin-top: 15px;
+    text-align: center;
 }
 
 figure img{
