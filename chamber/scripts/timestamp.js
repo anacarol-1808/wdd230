@@ -1,10 +1,6 @@
-function myTimeStamp(event) {
-  var n = event.timeStamp;
-  document.getElementById("timeStamp").innerHTML = n;
-  console.log(n);
-}
-
-console.log(n);
+const x = new Date();
+console.log(x)
+document.querySelector("input[name='today']").value = x;
 
 
 
